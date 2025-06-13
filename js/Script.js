@@ -32,6 +32,20 @@ var modulo = decimal % 2;
 for (let i=0; i <array.length; i++){
     console.log(array [i])
 }
-Swal.fire("BIENVENIDOS CAREVERGAS");
+Swal.fire("BIENVENIDO");
 
+
+document.addEventListener('DOMContentLoaded', () => {
+    const form = document.querySelector('form');
+  
+    form.addEventListener('submit', (e) => {
+      e.preventDefault(); // evitar que el formulario se envíe y recargue la página
+  
+      Swal.fire({
+        title: "CAMPOS INCOMPLETOS",
+        text: "Completa los campos antes de continuar",
+        icon: "error"
+      });
+    });
+  });
 //console.log(multi);
