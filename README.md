@@ -18,15 +18,18 @@ A través de esta actividad logramos:
 
 ```
 📁 html/
-   └── index.html      →  Página principal de Login  
    └── registro.html      →  Formulario para registrar usuarios nuevos  
    └── recuperar.html      →  Vista para recuperación de contraseña
+   └── dashboard.html      → pagina principal del usuario
 📁 css/
    └── estilos.css      → Hoja de estilos externa común a todas las páginas
+   └── carousel.css.js      → estilos de bootstrap para el carousel
 📁 js/
    └── Script.js      → Script principal para el index.html
    └── recuperar.js      → script para el html de recuperar contraseña
 ```
+└── index.html      →  Página principal de Login  
+└── README.md      →  Archivo Markdown
 
 ---
 
